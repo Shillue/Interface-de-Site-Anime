@@ -3,31 +3,31 @@
     --cor2: #141414;
 }
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 /*Elementos bases*/
 body{
     background: var(--cor2);
-    font-family: 'Times New Roman', Times, serif;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 header .container{
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-between;
 }
 header .logo{
-    margin-left: 10px;
     color: var(--cor1);
     font-family: Arial Black, Helvetica, sans-serif;
     font-size: 30px;
+    margin-left: 10px;
 }
 header nav a{
-    text-decoration: none;
     color: rgb(184, 140, 140);
     margin-right:10px;
+    text-decoration: none;
 }
 header nav a:hover{
     color: white;
@@ -35,33 +35,33 @@ header nav a:hover{
 }
 /*Anime principal*/
 .animePrincipal{
-    font-size: 18px;
-    background: linear-gradient(rgba(0,0,0, 0.50),rgba(0,0,0, 0.50)100%), url("../recursos/capa-dragon-ball-z.jpg");   
-    height: 400px;
+    align-items: flex-start;
     background-size: cover;
+    background: linear-gradient(rgba(0,0,0, 0.50),rgba(0,0,0, 0.50)100%), url("../recursos/capa-dragon-ball-z.jpg");   
     display: flex;
     flex-direction: column;
+    font-size: 18px;
+    height: 400px;
     justify-content: center;
-    align-items: flex-start;
 }
 .animePrincipal .descricao{
     margin-bottom: 40px;
     margin-top: 10px;
 }
 .titulo{
-    margin-top: 15%;
-    font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-top: 15%;
 }
 .botao{
     background-color: rgba(0, 0, 0, 0.50);
     border: none;
     color: white;
-    padding: 10px 30px;
-    margin-right: 15px;
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
     cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-right: 15px;
+    padding: 10px 30px;
     transition: .5s ease all;
 }
 .botao:hover{
@@ -79,9 +79,9 @@ header nav a:hover{
 }
 /*Imagens do carrosel*/
 .boxAnime{
+    display: block;
     height: 100%;
     width: 100%;
-    display: block;
 }
 .carroselAnime{
     margin-top: 10px;
@@ -89,11 +89,11 @@ header nav a:hover{
 /*rodapé*/
 footer{
     border-top: dotted;
-    margin-top: 5px;
     height: 70px;
+    margin-top: 5px;
 }
 footer p{
+    font-size: 15px;
     margin: 30px;
     text-align: center;
-    font-size: 15px;
 }
