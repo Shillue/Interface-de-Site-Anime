@@ -21,13 +21,14 @@ header .container{
 header .logo{
     color: var(--cor1);
     font-family: Arial Black, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 10px;
 }
 header nav a{
     color: rgb(184, 140, 140);
-    margin-right:10px;
+    margin-right:1.3rem;
     text-decoration: none;
+    font-size: 1.5rem;
 }
 header nav a:hover{
     color: white;
@@ -37,12 +38,16 @@ header nav a:hover{
 .animePrincipal{
     align-items: flex-start;
     background-size: cover;
-    background: linear-gradient(rgba(0,0,0, 0.50),rgba(0,0,0, 0.50)100%), url("../recursos/capa-dragon-ball-z.jpg");   
+    background: linear-gradient(rgba(0,0,0, 0.50),rgba(0,0,0, 0.50)100%), url("../recursos/capa-dragon-ball-z.jpg");  
+    background-repeat: no-repeat; 
     display: flex;
     flex-direction: column;
-    font-size: 18px;
-    height: 400px;
+    font-size: 1.5rem;
+    height: 41rem;
     justify-content: center;
+}
+.animePrincipal .container{
+    margin-left: 2rem;
 }
 .animePrincipal .descricao{
     margin-bottom: 40px;
@@ -50,7 +55,7 @@ header nav a:hover{
 }
 .titulo{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 35px;
+    font-size: 2.2rem;
     margin-top: 15%;
 }
 .botao{
@@ -59,10 +64,12 @@ header nav a:hover{
     color: white;
     cursor: pointer;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
+    font-size: 1.2rem;
+    font-weight: 600;
     margin-right: 15px;
-    padding: 10px 30px;
+    padding: 15px 30px;
     transition: .5s ease all;
+    border-radius: 25px;
 }
 .botao:hover{
     background-color: white;
@@ -88,12 +95,14 @@ header nav a:hover{
 }
 /*rodapé*/
 footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-top: dotted;
-    height: 70px;
+    height: 5rem;
     margin-top: 5px;
 }
 footer p{
-    font-size: 15px;
+    font-size: 1.3rem;
     margin: 30px;
-    text-align: center;
 }

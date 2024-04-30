@@ -27,7 +27,8 @@ header .logo{
 header nav a{
     text-decoration: none;
     color: rgb(184, 140, 140);
-    margin-right:10px;
+    margin-right:1.3rem;
+    font-size: 1.5rem;
 }
 header nav a:hover{
     color: white;
@@ -35,10 +36,11 @@ header nav a:hover{
 }
 /*Elementos Principais*/
 .animeDragon{
-    font-size: 18px;
+    font-size: 1.5rem;
     background: linear-gradient(rgba(0,0,0, 0.50),rgba(0,0,0, 0.50)100%), url("../recursos/capa2-dragon-ball-z.jpg");   
-    height: 400px;
+    height: 45rem;
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,22 +48,24 @@ header nav a:hover{
 }
 .animeDragon .dados{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
     text-align: left;
+    font-size: 1.5rem;
 }
 .titulo{
     margin-top: 15%;
-    font-size: 30px;
+    font-size: 2.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .botao{
     background-color: rgba(0, 0, 0, 0.50);
     border: none;
     color: white;
-    padding: 10px 30px;
+    padding: 15px 30px;
     margin-right: 15px;
-    margin-top: 10px;
-    font-size: 16px;
+    border-radius: 25px;
+    margin-top: 2.5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
     cursor: pointer;
     transition: .5s ease all;
@@ -78,12 +82,15 @@ header nav a:hover{
 }
 /*rodapé*/
 footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-top: dotted;
     margin-top: 150px;
-    height: 70px;
+    height: 5rem;
+    padding: 10px;
 }
 footer p{
     margin: 30px;
-    text-align: center;
-    font-size: 15px;
+    font-size: 1.3rem;
 }
